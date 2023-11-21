@@ -20,9 +20,11 @@ main h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
+    color: var(--color-red);
 }
 
-p {
+main p {
     text-align: center;
     font-weight: 300;
+    color: var(--gray-color2);
 }

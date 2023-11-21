@@ -53,12 +53,6 @@ main {
     grid-row: 1;
 }
 
-.grid.two .ligne {
-    grid-column: 1;
-    grid-row: 4;
-}
-
-
 
 
 /*! deuxième version de la grille */
@@ -123,7 +117,7 @@ main {
 }
 
 header h2 {
-    border-left: 4px solid #f4f4f4;
+    border-left: 4px solid var(--bg-color);
     padding: 8px;
     color: var(--gray-color);
     font-size: 15px;
