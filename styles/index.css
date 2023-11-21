@@ -136,6 +136,8 @@ header h2 {
     background-color: var(--white-box-color);
     cursor: pointer;
     padding: 10px;
+
+    text-decoration: none;
 }
 
 .news .article-news:hover .title-news {
