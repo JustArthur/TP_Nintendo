@@ -1,7 +1,6 @@
 main {
-    position: absolute;
-    top: 72px;
-    left: 88px;
+    margin-top: 72px;
+    margin-left: 88px;
 
     display: flex;
 
