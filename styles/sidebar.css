@@ -36,6 +36,8 @@
     cursor: pointer;
 
     padding: 8px;
+
+    text-decoration: none;
 }
 
 .sidebar .content-box:first-child {

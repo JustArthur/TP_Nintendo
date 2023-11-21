@@ -14,33 +14,16 @@
 
     <link rel="icon" href="https://fs-prod-cdn.nintendo-europe.com/media/images/01_website_elements/icons/favicon.ico">
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="http://127.0.0.1:5500/" class="logo">
-            <h1>ArthurBourst</h1>
-        </a>
-
-        <ul class="content">
-            <li class="content-box search">
-                <span class="material-symbols-rounded">search</span>
-                <p>Rechercher</p>
-            </li>
-
-            <li class="content-box fav">
-                <span class="material-symbols-rounded">favorite</span>
-                <p>Liste de souhaits</p>
-            </li>
-
-            <li class="content-box login">
-                <span class="material-symbols-rounded">person</span>
-                <p>Connexion</p>
-            </li>
-        </ul>
-    </nav>
-
+    
+    <nav class="navbar" id="nav"></nav>
+    <script>$(function() {$('#nav').load("views/navbar.html");});</script>
 
     <ul class="sidebar">
         <li class="content-box">
@@ -101,47 +84,47 @@
     <main>
         <div class="grids">
             <div class="grid one">
-                <div class="column image">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmagarticles.magzter.com%2Farticles%2F4964%2F366712%2F5d5f892ceccae%2FDoom-Eternal.jpg&f=1&nofb=1&ipt=832a91547c0f2b76d94420a2fc196f638b563c41ad68dde8dbdc782715ef865a&ipo=images" alt="Image du jeu Doom Eternal par IdSoftware">
-                </div>
+                <a href="pages/doomPage.html" class="column image">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.hdqwalls.com%2Fdownload%2Fdoom-eternal-5k-oj-3840x2400.jpg&f=1&nofb=1&ipt=70ee226cd7b84fd0e8f185d1b661a8e24c1434961776da493cae7918f9dec339&ipo=images" alt="Image du jeu Doom Eternal par IdSoftware">
+                </a>
     
-                <div class="box image">
+                <a href="pages/TennisPage.html" class="box image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felectomagazine.it%2Fwp-content%2Fuploads%2F2021%2F04%2FLe-tennis-a-l-epreuve-du-monde-d-apres-scaled.jpg&f=1&nofb=1&ipt=e9e0a5439491e7da213a7caf7f9fe159ecec6cc0e24c7e351cce3f05d2cab64f&ipo=images" alt="Image représantant le sport du Tennis">
-                </div>
+                </a>
     
-                <div class="box image">
+                <a href="pages/bugattiPage.html" class="box image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmoneyinc.com%2Fwp-content%2Fuploads%2F2020%2F07%2FBugatti-Chiron-Super-Sport-300.jpg&f=1&nofb=1&ipt=c754381e95ddc78e18166b1d6940a91619689890464d4f4ff6fa40a5f6588c2b&ipo=images" alt="Photo de la voiture française Bugatti Chiron Super Sport 300+">
-                </div>
+                </a>
     
-                <div class="row image">
+                <a href="pages/PikminPage.html" class="row image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Fnintendo-connect.de%2Fwp-content%2Fuploads%2F2019%2F03%2FPikmin-4.jpg%3Ffit%3D5000%252C2564%26ssl%3D1&f=1&nofb=1&ipt=9c0a45d28f7f286a1a84ea5186d8963813eab99ec089bbb67dc2a6e9280072ec&ipo=images" alt="Image du nouevau jeu de Nintendo Pikmin 4">
-                </div>
+                </a>
             </div>
 
             <div class="grid two">
-                <div class="column image">
+                <a href="pages/opmPage.html" class="column image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2019%2F07%2FOne-Punch-Man-heroes.jpg&f=1&nofb=1&ipt=7d4149748657b36ec014982a0af7227cca6d9213490c666b398be48ce27be24c&ipo=images" alt="Illustration d'un manga nommé One Punch Man">
-                </div>
+                </a>
     
-                <div class="box image">
+                <a href="pages/shrekPage.html" class="box image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gannett-cdn.com%2F-mm-%2F0a69d06250be1f94e002e1112c76a79321dd9a9a%2Fc%3D0-40-1198-717%2Flocal%2F-%2Fmedia%2F2016%2F04%2F28%2FUSATODAY%2FUSATODAY%2F635974324956297414-XXX-SHREKE-WEB-TV-JY-312--65040368.JPG%3Fwidth%3D3200%26height%3D1680%26fit%3Dcrop&f=1&nofb=1&ipt=110270f415a9a0c24928f7a90a3805206e849a52667c44bd30b568d81e41f320&ipo=images" alt="Image du film d'animaation de Dreamwork nommé Shrek">
-                </div>
+                </a>
     
-                <div class="box image">
+                <a href="pages/fhPage.html" class="box image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgreatgamer.ru%2Fimages%2Fgames_cover%2Fcover_33738.jpg&f=1&nofb=1&ipt=4c7443c341af6bcee8fa1dea6efc73593e937a06a507f01fafbba5db65085f36&ipo=images" alt="Image du jeu Forza Horizon 4 de Microsoft">
-                </div>
+                </a>
 
-                <div class="box image">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FoXBd10sSGAM%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=b30e965ac40483e8a8382fcf8e641f460c8189ff0328b941a47c8c6ab0a0c103&ipo=images" alt="Image de la couverture d'une musique de Zenieth">
-                </div>
+                <a href="pages/gdstPage.html" class="box image">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faws.vdkimg.com%2Ffilm%2F2%2F3%2F4%2F3%2F234324_backdrop_scale_1280xauto.jpg&f=1&nofb=1&ipt=3d4dbf265fdfc83671888a8169b05a63e18f1ced9cb69192c91c2a6154393772&ipo=images" alt="Louis de Funes dur un tracteur dans la serie de film les Gendarmes de Saint-Tropez">
+                </a>
 
-                <div class="box image">
+                <a href="pages/wattsonPage.html" class="box image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Foneesports.azureedge.net%2Fcdn-data%2Fwp-content%2Fuploads%2F2019%2F07%2FApexLegends_Wattson.jpg&f=1&nofb=1&ipt=4e1a5f55e8fa1727956d839357a5c8cc5041fd07034fff8b87a696f3d4d9f02c&ipo=images" alt="Image de Wattson un personnage du jeu Apex Legends de EA">
-                </div>
+                </a>
 
-                <div class="box image">
+                <a href="pages/terminatorPage.html" class="box image">
                     <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fstatic.guim.co.uk%2Fsys-images%2FGuardian%2FPix%2Fpictures%2F2015%2F6%2F29%2F1435569043617%2Ffe9cf0ca-0778-42b2-a5ac-dcc37a018f1f-2060x1236.jpeg&f=1&nofb=1&ipt=e0daedbbd53c0fcf607bf6e686779cf3abb860ecf8629c2125e41b77c4672d3c&ipo=images" alt="Image du Terminator du film Terminator">
-                </div>
+                </a>
             </div>
         </div>
         
