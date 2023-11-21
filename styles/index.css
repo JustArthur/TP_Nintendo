@@ -53,6 +53,11 @@ main {
     grid-row: 1;
 }
 
+.grid.two .ligne {
+    grid-column: 1;
+    grid-row: 4;
+}
+
 
 
 
@@ -112,7 +117,7 @@ main {
 
     padding: 12px;
 
-    background-color: var(--white-color);
+    background-color: var(--white-box-color);
 
     margin-bottom: 5px;
 }
@@ -135,7 +140,7 @@ header h2 {
 .news .article-news {
     display: flex;
     gap: 5px;
-    background-color: var(--white-color);
+    background-color: var(--white-box-color);
     cursor: pointer;
     padding: 10px;
 }

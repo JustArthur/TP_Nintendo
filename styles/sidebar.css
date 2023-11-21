@@ -46,7 +46,6 @@
 
 .sidebar .content-box:last-child{
     border-bottom: 1px solid var(--border-color);
-    background-color: var(--border-color);
 }
 
 .sidebar .content-box svg {
@@ -77,7 +76,7 @@
     width: 85px;
 }
 
-.sidebar .content-box:hover:not(:last-child) {
+.sidebar .content-box:hover {
     background-color: var(--color-red-darker);
 }
 
